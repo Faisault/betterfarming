@@ -1,0 +1,75 @@
+# Fermes minières.
+# Interval : secondes entre deux cycles de minage (la ferme doit avoir du carburant).
+# Amount   : nombre de tirages par cycle.
+# Ores     : minerai -> poids relatif (plus le poids est grand, plus le minerai est fréquent).
+# Pages    : nombre de pages de stockage (27 emplacements par page).
+Level-1:
+  Interval: 30
+  Amount: 1
+  Pages: 1
+  Cost-xp: 20
+  Cost-eco: 5000
+  Ores:
+    COBBLESTONE: 60
+    COAL: 25
+    RAW_COPPER: 10
+    RAW_IRON: 5
+Level-2:
+  Interval: 25
+  Amount: 2
+  Pages: 1
+  Cost-xp: 25
+  Cost-eco: 10000
+  Ores:
+    COBBLESTONE: 45
+    COAL: 25
+    RAW_COPPER: 12
+    RAW_IRON: 12
+    REDSTONE: 4
+    LAPIS_LAZULI: 2
+Level-3:
+  Interval: 20
+  Amount: 3
+  Pages: 2
+  Cost-xp: 30
+  Cost-eco: 20000
+  Ores:
+    COBBLESTONE: 35
+    COAL: 22
+    RAW_COPPER: 12
+    RAW_IRON: 15
+    REDSTONE: 7
+    LAPIS_LAZULI: 4
+    RAW_GOLD: 5
+Level-4:
+  Interval: 15
+  Amount: 4
+  Pages: 2
+  Cost-xp: 35
+  Cost-eco: 40000
+  Ores:
+    COBBLESTONE: 25
+    COAL: 18
+    RAW_COPPER: 10
+    RAW_IRON: 17
+    REDSTONE: 9
+    LAPIS_LAZULI: 6
+    RAW_GOLD: 9
+    DIAMOND: 4
+    EMERALD: 2
+Level-5:
+  Interval: 10
+  Amount: 5
+  Pages: 3
+  Cost-xp: 40
+  Cost-eco: 80000
+  Ores:
+    COBBLESTONE: 15
+    COAL: 14
+    RAW_IRON: 18
+    RAW_GOLD: 12
+    REDSTONE: 10
+    LAPIS_LAZULI: 8
+    DIAMOND: 12
+    EMERALD: 8
+    ANCIENT_DEBRIS: 3

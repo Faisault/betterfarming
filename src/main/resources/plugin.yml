@@ -1,0 +1,21 @@
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+api-version: 1.13
+
+main: com.craftaro.epicfarming.EpicFarming
+author: Craftaro
+website: ${project.url}
+
+# TODO: cleanup commands section
+commands:
+  EFA:
+    description: View information on this plugin.
+    default: true
+    aliases: [ EpicFarming, BetterFarming, BF ]
+    usage: /efa
+
+permissions:
+  epicfarming.top:
+    description: Voir le classement des producteurs.
+    default: true

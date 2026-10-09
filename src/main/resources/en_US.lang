@@ -1,0 +1,88 @@
+# Messages généraux
+
+general:
+  nametag:
+    prefix: '&8[&6BetterFarming&8]'
+    farm: '&eFerme &fniveau %level%'
+    miningfarm: '&bFerme minière &fniveau %level%'
+    lore: ''
+  interface:
+    next: Suivant
+    previous: Précédent
+    unlocked: Débloqué
+    'on': 'Activé'
+    'off': 'Désactivé'
+    both: Mixte
+    crops: Cultures
+    livestock: Élevage
+    all: Tout
+    noseeds: Pas de graines
+    mining: Minage
+
+# Messages d'interface
+
+interface:
+  button:
+    upgradewithxp: '&aAméliorer avec l''XP'
+    upgradewithxplore: '&7Coût : &a%cost% niveaux'
+    level: '&6Niveau suivant &7%level%'
+    radius: '&7Rayon : &6%radius%'
+    speed: '&7Vitesse : &6%speed%x'
+    autocollect: '&7Auto-collecte : &6%status%'
+    collectiontype: '&7Type de collecte : &6%status%'
+    autoreplant: '&7Replantation auto : &6%status%'
+    autobreeding: '&7Reproduction auto : &6%status%'
+    autobutcher: '&7Abattage auto : &6%status%'
+    pages: '&7Pages : &6%amount%'
+    boostedstats: '&a&lBoost actif !|&7Rendement multiplié par &6%amount%x&7.|&7Expire dans &6%time%&7.'
+    farmtype: '&7Type de ferme : &6%type%'
+    farmtypelore: '&7Clique pour changer le type de ferme.'
+    mininginterval: '&7Cycle : &6%seconds%s'
+    miningamount: '&7Production : &6%amount% par cycle'
+    miningore: '&7 - &f%ore%&7 : &6%chance%%'
+    fuel: '&7Carburant : &6%time%'
+    nofuel: '&cSans carburant &7(clic droit avec du charbon)'
+    link: '&bLier un conteneur'
+    linkstatus: '&7Lié à : &f%location%'
+    linknone: '&7Aucun conteneur lié'
+    linkclick: '&eClic : lier &7| &eMaj+clic : délier'
+    stats: '&6Statistiques de la ferme'
+    statsproduced: '&7Production totale : &a%amount%'
+    statsnext: '&7Prochain palier : &e%amount%'
+    statsmax: '&aTous les paliers sont atteints !'
+    functiontoggle: '&7Clique pour activer/désactiver.'
+
+# Messages de commande
+
+command:
+  give:
+    success: '&7Tu as reçu une ferme de &6niveau %level%&7.'
+    successmining: '&7Tu as reçu une ferme minière de &6niveau %level%&7.'
+
+# Messages d'évènements
+
+event:
+  general:
+    nopermission: '&cTu n''as pas la permission de faire ça.'
+    protected: '&cCette ferme est protégée, tu ne peux pas y accéder.'
+  upgrade:
+    cannotafford: '&cTu n''as pas les moyens pour cette amélioration.'
+    success: '&7Ferme améliorée au &6niveau %level%&7 !'
+    maxed: '&6Cette ferme est au niveau maximum.'
+    successmaxed: '&7Ferme portée au niveau maximum (&6%level%&7).'
+  limit:
+    hit: '&7Tu ne peux avoir que &6%limit% &7fermes en même temps.'
+  fuel:
+    added: '&7Carburant ajouté ! Restant : &6%time%&7.'
+    full: '&cLe réservoir de cette ferme est déjà plein.'
+  link:
+    start: '&7Fais un &eclic droit &7sur la trémie, le coffre, le baril ou le shulker à relier.'
+    success: '&aConteneur lié ! La production y sera envoyée automatiquement.'
+    invalid: '&cCe bloc n''est pas un conteneur valide (trémie, coffre, baril, shulker).'
+    toofar: '&cLe conteneur est trop loin (maximum &4%distance% &cblocs, même monde).'
+  crit:
+    bonus: '&6&l✦ Récolte critique ! &e×2'
+  milestone:
+    reached: '&6&lPALIER ! &7Ta ferme a produit &e%amount% &7items. Récompense reçue !'
+  warning:
+    noauto: '&6Attention : &cCet objet n''est pas récolté automatiquement'
